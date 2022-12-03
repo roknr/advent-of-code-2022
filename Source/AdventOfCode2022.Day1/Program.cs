@@ -15,7 +15,7 @@ foreach (var elf in elves)
 {
     totalCalories += elf.Calories;
 
-    Console.WriteLine($"Elf: {elf!.Index} | Calories: {elf.Calories}");
+    Console.WriteLine($"Elf: {elf.Index} | Calories: {elf.Calories}");
 }
 
 Console.WriteLine($"Total calories: {totalCalories}");
