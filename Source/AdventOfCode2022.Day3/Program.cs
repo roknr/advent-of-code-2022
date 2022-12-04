@@ -1,5 +1,4 @@
-﻿var result1 = File.ReadLines("./input.txt")
-    .Where(line => !string.IsNullOrWhiteSpace(line))
+﻿var part1Result = File.ReadLines("./input.txt")
     .Select(line => line[..(line.Length / 2)]
         .Intersect(line[(line.Length / 2)..])
         .Single())
@@ -8,11 +7,10 @@
         : c - ('A' - 1) + 'z' - 'a' + 1)
     .Sum();
 
-Console.WriteLine(result1);
+Console.WriteLine(part1Result);
 
 
-var result2 = File.ReadLines("./input.txt")
-    .Where(line => !string.IsNullOrWhiteSpace(line))
+var part2Result = File.ReadLines("./input.txt")
     .Chunk(3)
     .Select(group => group[0]
         .Intersect(group[1])
@@ -23,4 +21,4 @@ var result2 = File.ReadLines("./input.txt")
         : c - ('A' - 1) + 'z' - 'a' + 1)
     .Sum();
 
-Console.WriteLine(result2);
+Console.WriteLine(part2Result);

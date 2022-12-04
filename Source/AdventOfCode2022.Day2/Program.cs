@@ -1,7 +1,6 @@
 ﻿#region Main
 
 var finalScore1 = File.ReadLines("./input.txt")
-    .Where(line => !string.IsNullOrWhiteSpace(line))
     .Select(line =>
     {
         var choices = line.Split(" ");
@@ -19,7 +18,6 @@ Console.WriteLine($"Final score 1: {finalScore1}");
 
 
 var finalScore2 = File.ReadLines("./input.txt")
-    .Where(line => !string.IsNullOrWhiteSpace(line))
     .Select(line =>
     {
         var choiceAndOutcome = line.Split(" ");
