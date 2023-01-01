@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
-using AoCDirectory = AdventOfCode2022.Day7.Directory;
-using AoCFile = AdventOfCode2022.Day7.File;
+using AoCDirectory = AdventOfCode2022.Day07.Directory;
+using AoCFile = AdventOfCode2022.Day07.File;
 
 // Lord forgive me, for i have sinned
 

@@ -1,4 +1,4 @@
-﻿namespace AdventOfCode2022.Day1
+﻿namespace AdventOfCode2022.Day01
 {
     public static class Extensions
     {

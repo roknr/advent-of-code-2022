@@ -1,4 +1,4 @@
-﻿namespace AdventOfCode2022.Day7
+﻿namespace AdventOfCode2022.Day07
 {
     public abstract class FileSystemItem
     {
